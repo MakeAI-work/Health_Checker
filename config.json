@@ -1,0 +1,11 @@
+{
+    "urls": [
+        "https://httpbin.org/status/200",
+        "https://httpbin.org/status/404",
+        "https://httpbin.org/delay/1",
+        "https://httpbin.org/delay/3"
+    ],
+    "check_interval": 30,
+    "timeout_seconds": 10,
+    "slow_threshold": 1000
+} 
